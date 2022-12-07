@@ -1,4 +1,9 @@
+document.getElementById("copy-signature").addEventListener("click", function(event) {
+    event.preventDefault();
+    copyElementToClipboard;
+});
 function copyElementToClipboard(element) {
+   
     window.getSelection().removeAllRanges();
     let range = document.createRange();
     range.selectNode(typeof element === 'string' ? document.getElementById(element) : element);
@@ -7,13 +12,38 @@ function copyElementToClipboard(element) {
     window.getSelection().removeAllRanges();
     
     swal("Good job!", "You have copied this template!", "success");
-    }
-/*
-function copyHTML(){
-    let signature = getElementById("sign").outerHTML;
+}
     
-    copyElementToClipboardUpdate(signature)
-}*/
+
+    document.getElementById('imageLink').addEventListener("keyup",function(event){
+        let element = document.getElementById("imageLink").value;
+        document.getElementById("photouser").src = element;
+        
+    })
+
+document.addEventListener('keyup', function(event){
+    let elementId = event.target.getAttribute('data-id-element');
+    let elementFormId = event.target.getAttribute('id');
+
+    let valueInputs = document.getElementById(elementFormId).value;
+    document.getElementById(elementId).innerHTML = valueInputs;
+    
+});
+
+
+let btnSave = document.getElementById('save-signature'); 
+btnSave.addEventListener("click", function (event) {
+    let signId = document.getElementById("sign");
+    let htmlsignature = [ signId.outerHTML];
+    var bl = new Blob(htmlsignature, {type: "text/html"});
+    btnSave.href = URL.createObjectURL(bl);
+ 
+});
+function saveHTMLsignature(){
+
+  
+  
+}
 
 
 
