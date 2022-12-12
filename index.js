@@ -1,3 +1,4 @@
+/*Function to copy signatures and show message */
 document.getElementById("copy-signature").addEventListener("click", function(event) {
     event.preventDefault();
     copyElementToClipboard;
@@ -13,7 +14,7 @@ function copyElementToClipboard(element) {
     
     swal("Good job!", "You have copied this template!", "success");
 }
-    
+/*Funtion to catch the key up of the inputs and switch data */    
 
     document.getElementById('imageLink').addEventListener("keyup",function(event){
         let element = document.getElementById("imageLink").value;
@@ -29,9 +30,10 @@ document.addEventListener('keyup', function(event){
     document.getElementById(elementId).innerHTML = valueInputs;
     
 });
-
+/*function to save signture as html */
 
 let btnSave = document.getElementById('save-signature'); 
+
 btnSave.addEventListener("click", function (event) {
     let signId = document.getElementById("sign");
     let htmlsignature = [ signId.outerHTML];
@@ -39,12 +41,3 @@ btnSave.addEventListener("click", function (event) {
     btnSave.href = URL.createObjectURL(bl);
  
 });
-function saveHTMLsignature(){
-
-  
-  
-}
-
-
-
-

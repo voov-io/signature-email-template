@@ -28,3 +28,20 @@
 .btn.save{
     background: #0ea5fd;
 }
+.title{
+    text-align: center;
+    margin: 1em;
+}
+
+main{
+    padding: 2.5em ;
+    display: grid;
+    row-gap:1em;
+    column-gap:3.5em;
+    grid-auto-flow: columns;
+    grid-template-columns: repeat(auto-fill, 256px);
+    justify-content: center;
+}
+main > div {
+    cursor: pointer;
+}
