@@ -36,12 +36,13 @@
 main{
     padding: 2.5em ;
     display: grid;
-    row-gap:1em;
+    row-gap:2em;
     column-gap:3.5em;
     grid-auto-flow: columns;
-    grid-template-columns: repeat(auto-fill, 256px);
+    grid-template-columns: repeat(auto-fill, 650px);
     justify-content: center;
 }
 main > div {
     cursor: pointer;
 }
+
