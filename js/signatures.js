@@ -83,7 +83,7 @@ function SignatureTemplate(Signature){
             <tr style="border: none; ">
                 <td colspan="2" style="border: none; ">
                         <div>
-                            <a href="https://ahmed.findrochesternyhomes.com/" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMLlRuGtCVT1PgM-WKojEKmhHQyB9cf6kg_8DezR_8zO2qWDaMMAaytM6qyyUzVBc2rJ4YI-nqk5rTgSWCXCknBQrt5uA=w1920-h557" alt="Banner to visit our website"></a>
+                            <a href="${Signature.Searchhomes}" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMLlRuGtCVT1PgM-WKojEKmhHQyB9cf6kg_8DezR_8zO2qWDaMMAaytM6qyyUzVBc2rJ4YI-nqk5rTgSWCXCknBQrt5uA=w1920-h557" alt="Banner to visit our website"></a>
 
                         </div>
                 </td>
