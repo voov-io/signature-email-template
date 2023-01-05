@@ -43,7 +43,7 @@ function addEvenClick($element){
 
 function SignatureTemplate(Signature){
     return `
-    <table width="650" id="sign" style="border: none; width: 650px; max-width:650px; height: 278px;">
+    <table width="650" id="sign" style="border: none; width: 650px; max-width:650px; height: 278px;" title="Click to copy signature">
             <tbody style="border: none; ">
                 <tr style="border: none; ">
                     <td  style="border: none; width: 85px;vertical-align: top;"> 
@@ -83,7 +83,7 @@ function SignatureTemplate(Signature){
             <tr style="border: none; ">
                 <td colspan="2" style="border: none; ">
                         <div>
-                            <a href="${Signature.Searchhomes}" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gMLlRuGtCVT1PgM-WKojEKmhHQyB9cf6kg_8DezR_8zO2qWDaMMAaytM6qyyUzVBc2rJ4YI-nqk5rTgSWCXCknBQrt5uA=w1920-h557" alt="Banner to visit our website"></a>
+                            <a href="${Signature.Searchhomes}" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gM_92lH3mvkMAayQhVw7fwlaMWSfzjvAYA0vW0pREXvKVxft3AK38RQB_9Zm5IW1fx5QTXGbW7LduNloy64MbLbHvBEOg=w1920-h932" alt="Banner to visit our website"></a>
 
                         </div>
                 </td>
@@ -180,7 +180,7 @@ function SignatureTemplate(Signature){
                 <td colspan="4" style="border: none; ">
                     <p style="color:black; font-family: Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif; font-weight: 400; font-size: 12px; color: #A8A8A8 ;">
                         
-                        This message and any attachments are confidential and only intended to be read by the addressed recipient. If you are not the intended recipient, please contact us, immediately delete the message from your computer and destroy any copies. Robert Piazza Palotto Sold Team | RE/MAX Plus: 2171 Monroe Avenue, Rochester, NY 14618. Each office Independently Owned and operated
+                        This message and any attachments are confidential and only intended to be read by the addressed recipient. If you are not the intended recipient, please contact us, immediately delete the message from your computer and destroy any copies. Robert Piazza Palotto Sold Team | RE/MAX Plus: 2171 Monroe Avenue, Rochester, NY 14618. Each office Independently owned and operated.
 
                     </p>
 
@@ -189,6 +189,7 @@ function SignatureTemplate(Signature){
             
         </tbody>
         </table>
+        
     `
 }
 
