@@ -57,7 +57,7 @@ function SignatureTemplate(Signature){
                         object-fit: cover;
                         object-position: center;
                     " src="${Signature.PictureCode}" alt="Profile image - ${Signature.Name}"></td>
-                    <td colspan="2" style="border: none; "><section>
+                    <td style="border: none; "><section>
                         <h1 id="nombre" style="font-size:25px; font-weight: 700; font-family: Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;text-transform: uppercase;color: black; margin-bottom: 0;">${Signature.Name}</h1>
                         <span id="rol" style="font-size:14px; font-weight: 400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;text-transform: uppercase;color: black; margin-bottom:5px;">${Signature.Title}</span>
                         <table style="margin-top: 20px;border: none;">
@@ -94,22 +94,8 @@ function SignatureTemplate(Signature){
                                     <p style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;"> <strong style="font-size:14px;font-weight: 600; color:black;margin:0px;">WEBSITE</strong></p>
                                     <p style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;"> <strong style="font-size:14px;font-weight: 600; color:black;margin:0px;">ADDRESS</strong></p>
                                 </td>
-                                <td style="border: none; ">
+                                <td colspan="2" style="border: none; ">
                                  
-                             
-                                ${
-                                    (() => {
-                                        if(Signature.OfficePhone !="") {
-                                            return `<p id="office" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.OfficePhone}</p>`;
-                                            
-                                        } else {
-                                            return `<p id="office" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;"></p>`;
-                                            
-                                        }
-
-                                    })()
-
-                                }
                                 ${
                                     (() => {
                                         if(Signature.Cellphone !="") {
@@ -123,9 +109,23 @@ function SignatureTemplate(Signature){
                                     })()
 
                                 }
+                                ${
+                                    (() => {
+                                        if(Signature.OfficePhone !="") {
+                                            return `<p id="office" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.OfficePhone}</p>`;
+                                            
+                                        } else {
+                                            return `<p id="office" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;"></p>`;
+                                            
+                                        }
+
+                                    })()
+
+                                }
+                                
                                     <p id="email" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Email}</p>
                                     <p id="website" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Website}</p>
-                                    <p id="address" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Address}</p></td>
+                                    <p id="address" style="font-size: 13px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Address}</p></td>
                                 </tr>
                         </table>
                     </section>
@@ -160,6 +160,7 @@ function SignatureTemplate(Signature){
                             max-width: 175px;
                             min-width: 175px;
                             height: 28px;
+                            min-height: 28px;
                             border: none;
                             background: #DF1C2D;
                             text-align: center;
@@ -185,6 +186,7 @@ function SignatureTemplate(Signature){
                             max-width: 175px;
                             min-width: 175px;
                             height: 28px;
+                            min-height: 28px;
                             border: none;
                             background: #23C075;
                             text-align: center;
@@ -208,6 +210,7 @@ function SignatureTemplate(Signature){
                         width: 175px;
                         max-width: 175px;
                         min-width: 175px;
+                        min-height: 28px;
                         height: 28px;
                         border: none;
                         background: #002D6F;
