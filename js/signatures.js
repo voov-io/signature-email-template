@@ -43,7 +43,7 @@ function addEvenClick($element){
 
 function SignatureTemplate(Signature){
     return `
-    <table width="650" id="sign" style="border: none; width: 650px; max-width:650px; height: 278px;" title="Click to copy signature">
+    <table width="750" id="sign" style="border: none; width: 750px; max-width:750px; height: 278px;" title="Click to copy signature">
             <tbody style="border: none; ">
                 <tr style="border: none; ">
                     <td  style="border: none; width: 85px;vertical-align: top;"> 
@@ -57,7 +57,7 @@ function SignatureTemplate(Signature){
                         object-fit: cover;
                         object-position: center;
                     " src="${Signature.PictureCode}" alt="Profile image - ${Signature.Name}"></td>
-                    <td style="border: none; "><section>
+                    <td colspan="2" style="border: none; "><section>
                         <h1 id="nombre" style="font-size:25px; font-weight: 700; font-family: Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;text-transform: uppercase;color: black; margin-bottom: 0;">${Signature.Name}</h1>
                         <span id="rol" style="font-size:14px; font-weight: 400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;text-transform: uppercase;color: black; margin-bottom:5px;">${Signature.Title}</span>
                         <table style="margin-top: 20px;border: none;">
