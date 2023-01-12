@@ -136,19 +136,19 @@ function SignatureTemplate(Signature){
             <tr style="border: none; ">
                 <td colspan="2" style="border: none; ">
                         <div>
-                            <a href="${Signature.Searchhomes}" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gM_92lH3mvkMAayQhVw7fwlaMWSfzjvAYA0vW0pREXvKVxft3AK38RQB_9Zm5IW1fx5QTXGbW7LduNloy64MbLbHvBEOg=w1920-h932" alt="Banner to visit our website"></a>
+                            <a href="${Signature.Searchhomes}" style="cursor:pointer ;"><img width="485" style="width:485px;max-width: 485px; height: auto;" src="https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/banner.png" alt="Banner to visit our website"></a>
 
                         </div>
                 </td>
                 <td style="border: none; ">
                     <div>
-                        <a href="${Signature.Facebook}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gO4RTQuWR-LXbPgJg_m-3tNRgeHrWEKS0J65wgX5PJKOm4GFQEjhs66YN0xH9otwuCvEI8Y_sAyXasqN5oI1gqB4sRElw=w1920-h532" alt="Icon FaceBook"></a>
+                        <a href="${Signature.Facebook}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/facebook.png" alt="Icon FaceBook"></a>
                     </div>
                     <div>
-                        <a href="${Signature.Linkedin}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gOwkEqvKU8kCtFNV6yDMnjWhGDjUDNv5lX4Qxqfmj8DNI32XUe5y7rsERqF1EgL-kF2YtBXnKPuTMts_MClVwUMq2Of=w1920-h532" alt="Icon LinkedIn"></a>
+                        <a href="${Signature.Linkedin}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/linkedin.png" alt="Icon LinkedIn"></a>
                     </div>
                     <div>
-                        <a href="${Signature.Instagram}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://lh3.googleusercontent.com/drive-viewer/AFDK6gM5eh0iQ2kqaxqrVQtjrC1NmABAz69jOMpEnLguDcRe0zDYr8YQ-6QWOAXk6OSw2bCFS24_Ylx8Oz-2KgrUsXjQanczQg=w1920-h932" alt="Icon Instagram"></a>
+                        <a href="${Signature.Instagram}" target="_blank"><img width="28" style="height:28px;width:28px; max-width: 28px; margin:4px 3px; cursor: pointer;" src="https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/instagram.png" alt="Icon Instagram"></a>
                     </div>
                 </td>
                 <td style="width: 200px;
