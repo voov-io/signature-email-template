@@ -1,6 +1,6 @@
-tr,td,th {
+/*tr,td,th {
     border: 1px solid black!important;
-    }
+    }*/
 .signature-container{
     display: flex;
     justify-content: space-around;
