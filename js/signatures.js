@@ -45,7 +45,7 @@ function SignatureTemplate(Signature){
     return `
     <table cellpadding="0" cellspacing="0" width="750" id="sign" style="border: none; width: 750px; max-width:750px; height: 278px;" title="Click to copy signature">
             <tbody style="border: none; ">
-                <tr style="border: none; ">
+                <tr style="border: none;">
                     <td  style="border: none; width: 85px;vertical-align: top;"> 
                         <img width="150" id="photouser"  style="
                         width:  150px;
@@ -125,7 +125,7 @@ function SignatureTemplate(Signature){
                                 
                                     <p id="email" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Email}</p>
                                     <p id="website" style="font-size: 14px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Website}</p>
-                                    <p id="address" style="font-size: 13px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif;">${Signature.Address}</p></td>
+                                    <p id="address" width:10  style="font-size: 13px;margin: 0; color: black; font-weight:400; font-family:  Roboto,system-ui, -apple-system,Arial, sans-serif, Helvetica, sans-serif; width:10px">${Signature.Address}</p></td>
                                 </tr>
                         </table>
                     </section>
@@ -154,7 +154,7 @@ function SignatureTemplate(Signature){
                 <td style="width: 200px;
                 height: 28px;
                 border: none;">
-                        <div style="
+                        <div width:175 style="
                             padding: 5px 4px;
                             width: 175px;
                             max-width: 175px;
@@ -180,7 +180,7 @@ function SignatureTemplate(Signature){
                                 ">SCHEDULE MEETING</a>
 
                         </div>
-                        <div style="
+                        <div  style="
                             padding: 5px 4px;
                             width: 175px;
                             max-width: 175px;
