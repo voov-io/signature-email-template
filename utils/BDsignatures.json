@@ -496,7 +496,7 @@
         },
         {
             "Name": " Rachel Reynolds",
-            "PictureCode": https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/small%20photos%20for%20signature/rachel%20photo.png",
+            "PictureCode": "https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/small%20photos%20for%20signature/rachel%20photo.png",
             "Title": "Licensed Assistant to Robert Piazza Palotto",
             "Email": "rachel@rppsoldteam.com",
             "Cellphone": "(585) 305-6063",
