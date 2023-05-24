@@ -629,7 +629,24 @@
             "Facebook": "https://www.facebook.com/rppsoldteam",
             "Instagram": "https://www.instagram.com/rppsoldteam/",
             "Linkedin": "https://www.linkedin.com/company/rpp-sold-team/"
-        }
+        },
+          {
+            "Name": "Audrey Coon",
+            "PictureCode": "https://raw.githubusercontent.com/voov-io/signature-email-template/main/imgs/small%20photos%20for%20signature/Mike-Sudz-Email-photo.jpg",
+            "Title": "Licensed Assistant to Robert Piazza Palotto",
+            "Email": "audrey.coon@rppsoldteam.com",
+            "Cellphone": "(585) 415-0901",
+            "OfficePhone": "(585) 623-1540",
+            "Address": "2171 Monroe Avenue, Rochester, NY 14618",
+            "Website": "https://www.findrochesternyhomes.com/",
+            "Linkdelbanner": "https://audreycoon.findrochesternyhomes.com/",
+            "Searchhomes": "https://audreycoon.findrochesternyhomes.com/",
+            "Contactus": "https://audreycoon.findrochesternyhomes.com/contactus/",
+            "Yourhomevalue": "https://audreycoon.findrochesternyhomes.com/home-valuation/",
+            "Facebook": "https://www.facebook.com/rppsoldteam",
+            "Instagram": "https://www.instagram.com/rppsoldteam/",
+            "Linkedin": "https://www.linkedin.com/company/rpp-sold-team/"
+        },
 
     ]
 }
